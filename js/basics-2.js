@@ -13,3 +13,8 @@ document.getElementById('para').textContent = greeting + userName;
 // console.log(userText.slice(5));
 
 // console.log(userText.charAt(1));
+
+const userText = prompt("enter some text");
+
+console.log (userText.replaceAll("a"))
+
